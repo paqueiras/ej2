@@ -29,7 +29,7 @@ al ejecutar git status confirmamos que Git igora.
 ## 4. Git status
 
 ![Resultado de git status](./img/i1.png)
-dir1/: Aparece como archivo sin seguimiento porque ! salvo al archivo info.txt los demas fueron ignorados.
+dir1/: Aparece como archivo sin seguimiento porque ! salvo a info.txt los demas fueron ignorados.
 dir2/: Aparece porque contiene un archivo otros.py que es válido y los archivos .txt fueron ignorados.
 dir3/: No aparece en el status porque todos sus archivos eran .txt.
 
