@@ -4,7 +4,7 @@
 
 Primero añado mi archivo global en mi carpeta de usuario personal.
 Aqui muestro los parametros que pide la pracica esto se aplicara a todos mis proyectos
-![Contenido del gitignore global](./i3.png)
+![Contenido del gitignore global](./img/i3.png)
 
 Tambien creo los archivos `prueba.o`, `documento.log`, `archivo.zip` y `carpeta/.DS_Store`
 
@@ -14,7 +14,7 @@ Añado el archivo `.gitignore` local para este proyecto.
 
 Y tambien aado sus parametros
 
-![Contenido del gitignore local](./i2.png)
+![Contenido del gitignore local](./img/i2.png)
 
 `!dir1/info.txt` crea una excepción para ser reconocido
 
@@ -22,13 +22,13 @@ Y tambien aado sus parametros
 
 Antes de comprobar el status pongo un ls para que se muestre que esta todo creado
 
-![Listado de archivos con ls](./i4.png)
+![Listado de archivos con ls](./img/i4.png)
 
 al ejecutar git status confirmamos que Git igora.
 
 ## 4. Git status
 
-![Resultado de git status](./i1.png)
+![Resultado de git status](./img/i1.png)
 dir1/: Aparece como archivo sin seguimiento porque ! salvo al archivo info.txt los demas fueron ignorados.
 dir2/: Aparece porque contiene un archivo otros.py que es válido y los archivos .txt fueron ignorados.
 dir3/: No aparece en el status porque todos sus archivos eran .txt.
